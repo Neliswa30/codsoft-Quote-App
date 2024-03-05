@@ -6,12 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".DailyQuoteActivity">
 
-    <RelativeLayout
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="381dp"
         android:layout_height="701dp"
-        tools:context=".DailyQuoteActivity"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="-9dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:context=".DailyQuoteActivity">
 
         <TextView
             android:id="@+id/quoteTextView"

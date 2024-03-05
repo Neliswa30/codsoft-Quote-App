@@ -6,8 +6,11 @@ android {
     namespace = "com.codsoft.dailyquote"
     compileSdk = 34
 
+    packagingOptions {
+        resources.excludes.add("META-INF/*")
+    }
 
-    defaultConfig {
+        defaultConfig {
         applicationId = "com.codsoft.dailyquote"
         minSdk = 19
         targetSdk = 34
